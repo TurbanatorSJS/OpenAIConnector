@@ -1,7 +1,7 @@
 import requests
 
 api_endpoint = "https://api.openai.com/v1/chat/completions"
-api_key = ADD_YOUR_API_KEY
+api_key = ADD_YOUR_API_KEY #Replace your own API token
 request_headers = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + api_key
